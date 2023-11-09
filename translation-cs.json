@@ -665,7 +665,8 @@
             "services": "Speciální laboratorní metody IVF",
             "dateOfIssue": "Datum vydání",
             "specialist": "Lékař",
-            "button": "Více"
+            "button": "Více",
+            "title": "Moje léčba"
         },
         "appointments": {
             "title": "Naplánované termíny",
