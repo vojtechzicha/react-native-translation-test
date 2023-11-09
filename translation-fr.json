@@ -1,1 +1,1306 @@
-{}
+{
+    "BookAnAppointment": {
+        "firstName": "Prénom",
+        "InterestedInOptions": {
+            "treatment_with_sperm_donation": "Traitement par don de sperme",
+            "treatment_with_egg_donation": "Traitement par don d'ovules",
+            "treatment_with_embryo_donation": "Traitement par don d'embryon",
+            "surrogacy": "La maternité de substitution",
+            "treatment_with_own_gamets": "Traitement avec ses propres jeux"
+        },
+        "TimePreferencesOptions": {
+            "morning_appointment": "Rendez-vous du matin",
+            "afternoon_appointment": "Rendez-vous de l'après-midi"
+        },
+        "MyGenderOptions": {
+            "M": "Homme",
+            "F": "Femme"
+        },
+        "title": "Prenez rendez-vous",
+        "subtitleSelectClinic": "Commencez par sélectionner la clinique que vous préférez pour prendre rendez-vous et éventuellement effectuer le traitement.",
+        "selectedClinic": "Clinique sélectionnée :",
+        "subtitleFirstStep": "Ajoutez vos informations personnelles et de contact pour continuer.",
+        "subtitleSecondStep": "Ajoutez vos besoins en matière de traitement et soumettez votre demande de réservation.",
+        "firstNamePlaceholder": "Tapez votre prénom",
+        "lastName": "Nom de famille",
+        "lastNamePlaceholder": "Tapez votre nom de famille",
+        "birthDate": "Date de naissance",
+        "birthDatePlaceholder": "Saisissez votre date de naissance",
+        "country": "Pays",
+        "countryPlaceholder": "Choisissez votre pays",
+        "personalCodeIdentifier": "Numéro social",
+        "personalCodeIdentifierPlaceholder": "Tapez votre numéro social",
+        "phoneNumber": "Numéro de téléphone",
+        "phoneNumberPlaceholder": "Tapez votre numéro de téléphone avec le + et l'indicatif du pays",
+        "email": "Courriel",
+        "emailPlaceholder": "Tapez votre email",
+        "confirmEmail": "Confirmer l'email",
+        "confirmEmailPlaceholder": "Saisissez à nouveau votre adresse électronique",
+        "submit": "Soumettre",
+        "continue": "Continuer",
+        "clinic": "Sélectionner la clinique",
+        "clinicPlaceholder": "Sélectionner une clinique dans la liste",
+        "clinicDescription": "Si vous avez besoin d'aide pour comprendre quelle clinique vous convient le mieux, utilisez notre quiz, répondez à quelques questions et vous trouverez ce que vous cherchez.",
+        "takeQuiz": "Répondez au quiz maintenant",
+        "relationshipType": "Type de relation",
+        "relationshipTypePlaceholder": "Sélectionner une option",
+        "myGender": "Mon sexe",
+        "myGenderPlaceholder": "Sélectionner une option",
+        "interestedIn": "Intéressé par",
+        "interestedInPlaceholder": "Sélectionner une option",
+        "message": "Ajouter un message",
+        "messagePlaceholder": "Tapez votre message",
+        "time": "Préférences temporelles",
+        "timePlaceholder": "Sélectionner une option",
+        "preferencesDescription": "Nous ferons de notre mieux pour satisfaire vos préférences, mais n'oubliez pas que nous pourrons revenir vers vous avec un autre calendrier en raison de la charge de travail de la clinique.",
+        "agreeUsePersonalData": "J'accepte que les données personnelles soient traitées conformément à ",
+        "privacyPolicy": "Politique de confidentialité",
+        "rodcis": "Si vous avez un numéro social tchèque (Rodné číslo), veuillez le remplir. Sinon, n'inscrivez rien.",
+        "RelationshipTypeOptions": {
+            "heterosexual_couple": "Dans un couple hétérosexuel",
+            "same_sex_couple": "Dans un couple de même sexe",
+            "single_woman": "Une femme seule"
+        }
+    },
+    "Onboarding": {
+        "messages": {
+            "name": "Messages",
+            "description": "Tous vos messages en un seul endroit, écrivez à la clinique si vous en avez besoin et consultez les messages de la clinique."
+        },
+        "title": "Bienvenue à FutureLife",
+        "titleWithName": "Bienvenue sur FutureLife, {{username}}",
+        "subtitle": "Nous sommes heureux de vous compter parmi nous. Voyons ensemble ce que cette application peut faire pour vous.",
+        "currentTreatment": {
+            "name": "Traitement actuel",
+            "description": "Le type de traitement peut être modifié après la consultation avec notre spécialiste de la FIV."
+        },
+        "documents": {
+            "name": "Documents",
+            "description": "Oubliez les emails pour partager des documents, ici vous pouvez voir ceux de la clinique et vous pouvez télécharger tout ce que vous avez besoin de partager avec nous."
+        },
+        "treatmentProtocol": {
+            "name": "Protocole de traitement",
+            "description": "Après la première consultation, votre spécialiste de la FIV mettra en place le protocole de traitement que vous devrez suivre pendant toute la durée du voyage."
+        },
+        "calendar": {
+            "name": "Calendrier",
+            "description": "Un calendrier vous aidera à reconnaître les périodes spécifiques de votre traitement et les actions que vous devrez entreprendre."
+        },
+        "embryoDevelopment": {
+            "name": "Développement de l'embryon",
+            "description": "Une fois que les embryons seront en cours de développement, vous pourrez voir les progrès réalisés les jours où la clinique les vérifiera."
+        },
+        "pregnancyTest": {
+            "name": "Test de grossesse",
+            "description": "Une fois le voyage terminé, faites-nous savoir comment cela se passe et si votre test de grossesse est positif."
+        },
+        "goToHome": "Aller à la page d'accueil"
+    },
+    "EmbryoDevOverview": {
+        "details": "Détails",
+        "Status": {
+            "Header": {
+                "day": "Jour {{count}}",
+                "completed": "Terminé",
+                "progress": "En cours",
+                "totalDays": "Jour {{count}}",
+                "totalDays_plural": "{{count}} jours"
+            }
+        },
+        "title": "Développement de l'embryon",
+        "Waiting": {
+            "text": "Les données seront mises à jour en fonction du traitement en cours, s'il est fourni par votre clinique."
+        }
+    },
+    "BookAppointmentSuccess": {
+        "title": "Merci de soumettre votre demande",
+        "subtitle": "Notre personnel prendra contact avec vous dans les plus brefs délais.",
+        "sentEmailTo": "Nous avons envoyé un courriel à ",
+        "sentEmailToDescription": " avec un lien pour définir votre mot de passe, complétez-le afin de pouvoir vous connecter et accéder à votre compte. N'oubliez pas de définir votre mot de passe dans l'heure qui suit. ",
+        "sentEmailToGeneric": "Nous vous avons envoyé un e-mail avec un lien pour définir votre mot de passe, complétez-le afin de pouvoir vous connecter et accéder à votre compte. N'oubliez pas de définir votre mot de passe dans l'heure qui suit. ",
+        "noMailReceived": "Vous n'avez encore rien reçu ?",
+        "clickHere": "Cliquez ici",
+        "login": "Accéder à la connexion",
+        "backHome": "Retour à l'accueil",
+        "successToast": {
+            "title": "Courriel",
+            "text": "Le courriel a été envoyé avec succès"
+        }
+    },
+    "Global": {
+        "baseDateFormat": "JJ/MM/AAAA",
+        "baseTimeFormat": "HH:mm",
+        "more": "10 et plus",
+        "error": "Erreur",
+        "selectModalTitle": "Choisissez une option :",
+        "viewAll": "Voir tous",
+        "close": "Fermer"
+    },
+    "FormValidation": {
+        "requiredField": "Champ obligatoire",
+        "emailFormatError": "Le format de l'email n'est pas valide",
+        "fieldIsTooShort": "Ce champ est trop court",
+        "personalCodeIdentifierError": "Format non valide",
+        "phoneNumberError": "Format non valide",
+        "emailMismatch": "Les courriels sont différents",
+        "checkField": "Ce champ doit être coché",
+        "minNumbers": "Au moins {{count}} nombre",
+        "minNumbers_plural": "Au moins les nombres {{count}}"
+    },
+    "Languages": {
+        "en": "Anglais",
+        "cs": "Tchèque"
+    },
+    "StoryBlok": {
+        "dateFormat": "AAAA-MM-JJ HH:mm"
+    },
+    "QuizCta": {
+        "title": "Trouver la bonne clinique pour vos besoins",
+        "textCta": "Répondre au quiz",
+        "dateOfBirth": "Date de naissance",
+        "dateFormat": "JJ/MM/AAAA"
+    },
+    "BookingCta": {
+        "title": "Vous souhaitez nous parler de votre situation ?",
+        "textCta": "Prendre rendez-vous"
+    },
+    "Tabs": {
+        "home": "Accueil",
+        "clinics": "Cliniques",
+        "treatments": "Traitements",
+        "treatment": "Traitement",
+        "quiz": "Quiz",
+        "menu": "Menu",
+        "messages": "Messages",
+        "help": "Aide",
+        "calendar": "Calendrier"
+    },
+    "Menu": {
+        "version": "Version de l'application {{version}}",
+        "url": "{{url}}",
+        "logoutDescription": "Prenez rendez-vous avec l'une de nos cliniques ou connectez-vous à votre compte existant",
+        "book": "Prendre rendez-vous",
+        "login": "Connexion",
+        "linkPatientId": "Associer l'identifiant du patient à l'application",
+        "faq": "FAQ",
+        "ctaDescription": "Si vous souhaitez en savoir plus sur nos services et leur fonctionnement, veuillez consulter notre centre d'aide.",
+        "termsOfService": "Conditions d'utilisation",
+        "privacyPolicy": "Politique de confidentialité",
+        "logout": "Déconnexion",
+        "documents": "Documents",
+        "invoices": "Factures",
+        "myClinic": "Ma clinique",
+        "questionnaire": "Questionnaire du patient",
+        "settings": "Paramètres",
+        "cancel": "Annuler"
+    },
+    "PathPreference": {
+        "title": "Choisissez votre voie",
+        "titleFromMenu": "Votre parcours",
+        "subtitle": "Vous pourrez le modifier ultérieurement dans les paramètres et préférences de l'application.",
+        "button": "Confirmer",
+        "buttonFromMenu": "Économiser",
+        "linkPatientID": "Je veux relier l'ID du patient à l'application",
+        "baby": {
+            "name": "Je veux avoir un bébé",
+            "description": "Si vous souhaitez avoir un enfant et que vous avez besoin d'aide pour comprendre quelle est la meilleure option pour vous."
+        },
+        "fertility": {
+            "name": "Je veux préserver ma fertilité",
+            "description": "Si vous souhaitez préserver votre fertilité, vous pouvez congeler vos gamètes afin de les utiliser ultérieurement."
+        },
+        "donor": {
+            "name": "Je souhaite devenir donateur",
+            "description": "Si vous souhaitez devenir donneur et donner vos gamètes (ovocytes ou spermatozoïdes) pour que d'autres patients puissent les utiliser"
+        }
+    },
+    "Clinics": {
+        "Filters": {
+            "title": "Filtres",
+            "apply": "Appliquer",
+            "resetAll": "Tout réinitialiser",
+            "country": "Pays",
+            "allCountries": "Tous les pays",
+            "services": "Services",
+            "allServices": "Tous les services",
+            "treatmentCriteria": "Critères de traitement",
+            "allTreatmentCriteria": "Tous les critères",
+            "filters": "Filtres",
+            "sortBy": "Trier par",
+            "sortByParam": "Trier par : {{param}}"
+        },
+        "title": "Cliniques"
+    },
+    "BookAppointmentResendMail": {
+        "successToast": {
+            "title": "Courriel",
+            "text": "Le courriel a été envoyé avec succès"
+        }
+    },
+    "Auth": {
+        "LoginPage": {
+            "loginToAccount": "Connectez-vous à votre compte",
+            "insertEmail": "Insérez votre adresse électronique.",
+            "insertPassword": "Insérez votre mot de passe.",
+            "email": "Courriel",
+            "emailPlaceholder": "Tapez votre email",
+            "password": "Mot de passe",
+            "passwordPlaceholder": "Tapez votre mot de passe",
+            "forgotPassword": "Vous avez oublié votre mot de passe ?",
+            "continue": "Continuer",
+            "cta": "Connexion"
+        },
+        "PasswordEmailSent": {
+            "title_set": "Nous vous avons envoyé un lien pour définir votre mot de passe.",
+            "title_reset": "Nous vous avons envoyé un lien pour réinitialiser votre mot de passe.",
+            "sentEmailTo": "Nous avons envoyé un courriel à ",
+            "sentEmailToDescription_set": " avec un lien pour définir votre mot de passe, complétez-le afin de vous connecter et d'accéder à votre compte. N'oubliez pas de définir votre mot de passe dans l'heure qui suit.",
+            "sentEmailToDescription_reset": " avec un lien pour réinitialiser votre mot de passe, complétez-le afin de vous connecter et d'accéder à votre compte. N'oubliez pas de réinitialiser votre mot de passe dans l'heure qui suit.",
+            "ctaPrimary": "Accéder à la connexion",
+            "ctaSecondary": "Retour à l'accueil",
+            "noMailReceived": "Vous n'avez encore rien reçu ? ",
+            "clickHere": "Cliquez ici",
+            "successToast": {
+                "title": "Courriel",
+                "text": "Le courriel a été envoyé avec succès"
+            }
+        },
+        "SetNewPassword": {
+            "title": "Définissez votre mot de passe",
+            "description": "Définir le mot de passe pour le compte FutureLife afin de pouvoir utiliser l'application dans son intégralité et recevoir des messages de la clinique.",
+            "password": "Mot de passe",
+            "repeatPassword": "Répéter le mot de passe",
+            "length": "{{count}} caractère long",
+            "length_plural": "{{count}} caractères longs",
+            "passwordSmallLetters": "Au moins {{count}} lettre minuscule",
+            "passwordSmallLetters_plural": "Au moins {{count}} lettres minuscules",
+            "passwordCapitalLetters": "Au moins {{count}} lettre majuscule",
+            "passwordCapitalLetters_plural": "Au moins {{count}} lettres majuscules",
+            "passwordNumber": "Au moins {{count}} nombre",
+            "passwordNumber_plural": "Au moins les nombres {{count}}",
+            "passwordSpecialCharacter": "Au moins {{count}} caractère spécial",
+            "passwordSpecialCharacter_plural": "Au moins {{count}} caractères spéciaux",
+            "cta": "Confirmer",
+            "passwordsMismatch": "Les mots de passe ne correspondent pas"
+        },
+        "ConfirmEmailCode": {
+            "title": "Insérez le code que nous vous avons envoyé par e-mail",
+            "subtitle": "Nous avons envoyé un code d'autorisation à votre adresse électronique. Veuillez le saisir ici pour vous connecter.",
+            "code": "Code",
+            "codePlaceholder": "Tapez le code que vous avez reçu",
+            "verify": "Vérifier",
+            "noCode": "La réception du code peut prendre une minute.\nVous ne l'avez pas reçu ? ",
+            "sendAgain": "Renvoyer le code",
+            "toastTitle": "Code envoyé",
+            "toastText": "Un autre code a été envoyé à votre e-mail"
+        },
+        "AccountNotFound": {
+            "title": "Pas de compte trouvé",
+            "subtitle": "L'email ou le mot de passe que vous avez fourni ne sont pas liés à un compte FutureLife.",
+            "tryAgain": "Réessayer",
+            "backHome": "Retour à l'accueil"
+        },
+        "ResetBiometry": {
+            "message": "Si vous décidez de réinitialiser votre mot de passe et que vous avez déjà configuré la biométrie, vous devrez la configurer à nouveau lors de votre prochaine connexion.",
+            "confirmModal": "Réinitialiser le mot de passe",
+            "dismissModal": "Annuler"
+        }
+    },
+    "Errors": {
+        "E_EXPIRED_TOKEN": "Session expirée",
+        "E_INVALID_TOKEN": "Jeton d'authentification invalide",
+        "E_ROUTE_NOT_FOUND": "Ressource non trouvée",
+        "E_INTERNAL_SERVER_ERROR": "Erreur générique du serveur",
+        "E_UNAUTHORIZED": "Vous n'avez pas l'autorisation d'accéder à cette ressource",
+        "E_VALIDATION_FAILURE": "Il y a quelques erreurs",
+        "E_ROW_NOT_FOUND": "Ressource non trouvée",
+        "BASE": "Une erreur s'est produite",
+        "E_FORBIDDEN": "Vous n'avez pas l'autorisation d'accéder à cette ressource",
+        "E_INVALID_CREDENTIALS": "L'adresse électronique ou le mot de passe sont erronés",
+        "E_INVALID_OTP": "L'OTP n'est pas le bon",
+        "ER_DUP_ENTRY": "L'email est déjà enregistré",
+        "E_OLD_PASSWORD": "Le mot de passe a déjà été utilisé"
+    },
+    "ClinicDetail": {
+        "Detail": {
+            "howToReachClinic": "Comment se rendre à la clinique",
+            "more": "Plus d'informations",
+            "totalReviews": "{{total}} avis",
+            "clinicForYou": "Cette clinique est-elle faite pour vous ?",
+            "becomeDonor": "Devenir donateur",
+            "bookAppointment": "Prendre rendez-vous",
+            "visitWebsite": "Visiter le site web",
+            "DonorBanner": {
+                "title": "Programme des donateurs",
+                "description": "Si vous souhaitez devenir donneur et donner vos gamètes (ovocytes ou spermatozoïdes) pour que d'autres patients puissent les utiliser.",
+                "DonorCta": {
+                    "textCta": "Devenir donateur"
+                }
+            },
+            "FertilityBanner": {
+                "title": "Préservation de la fertilité",
+                "description": "Si vous souhaitez préserver votre fertilité, vous pouvez congeler vos gamètes afin de les utiliser ultérieurement.",
+                "FertilityCta": {
+                    "textCta": "Prendre rendez-vous"
+                }
+            }
+        }
+    },
+    "DonorScreening": {
+        "title": "Devenir donateur",
+        "subtitle": "C'est le tout début de votre parcours de donneur, il vous suffit de choisir une clinique et de remplir quelques informations vous concernant et nous vous recontacterons. Ce formulaire est envoyé en toute sécurité par le biais d'une connexion sécurisée.",
+        "next": "Suivant",
+        "submit": "Soumettre",
+        "privacyPolicy": " J'ai lu et j'accepte la politique de confidentialité.",
+        "storeData": "En soumettant ce formulaire, je consens à ce que mes données de patient soient enregistrées dans le registre des patients de FutureLife.",
+        "clinic": "Sélectionnez la clinique*",
+        "clinicPlaceholder": "Sélectionner une clinique dans la liste",
+        "startTheQuestionnaire": "Commencer le questionnaire",
+        "modalTitle": "Êtes-vous sûr de vouloir quitter le questionnaire ?",
+        "modalDescription": "Votre progression ne sera pas sauvegardée. Vous devrez recommencer depuis le début.",
+        "DonorScreeningEnd": {
+            "title": "Merci de soumettre votre demande",
+            "subtitle": "Notre personnel prendra contact avec vous dans les plus brefs délais.",
+            "backHome": "Retour à l'accueil"
+        }
+    },
+    "HelpCenter": {
+        "rootName": "Centre d'aide",
+        "related": "En rapport",
+        "commonQuestions": "Questions courantes",
+        "Search": {
+            "homePlaceholder": "Recherche...",
+            "placeholder": "Sujet de recherche...",
+            "results": "Résultats de la recherche",
+            "matches": "{{count}} match",
+            "matches_plural": "{{count}} correspondances"
+        }
+    },
+    "HomePrivate": {
+        "todayDateFormat": "dddd, D MMMM YYYY",
+        "greetings_morning": "Bonjour, {{nom}}",
+        "greetings_afternoon": "Bonjour, {{nom}}",
+        "greetings_evening": "Bonsoir, {{nom}}",
+        "PatientQuestionnaireBanner": {
+            "title": "Questionnaire du patient",
+            "description": "Veuillez répondre à notre questionnaire pour vous aider à déterminer votre traitement",
+            "buttonStart": "Commencer maintenant",
+            "buttonContinue": "Continuer"
+        }
+    },
+    "Quiz": {
+        "title": "Trouvez votre clinique",
+        "subtitle": "Répondez à quelques questions et trouvez rapidement la clinique qui correspond le mieux à vos besoins.",
+        "subtitleCompleted": "Accédez à la liste des cliniques suggérées en fonction de vos choix, ou répondez à nouveau au questionnaire pour obtenir de nouveaux résultats.",
+        "text": "Remplissez notre questionnaire pour trouver la clinique qui vous convient le mieux.",
+        "start": "Commencer le quiz",
+        "restart": "Reprendre le quiz",
+        "clinics_loading": "Veuillez patienter...",
+        "clinics_count_zero": "Aucune clinique trouvée",
+        "clinics_count_zero_subtitle": "Essayez de modifier votre sélection actuelle",
+        "clinics_count": "clinique trouvée",
+        "clinics_count_plural": "cliniques trouvées",
+        "next": "Suivant",
+        "viewResults": "Voir les résultats",
+        "goToResults": "Aller aux résultats",
+        "birthdateFormat": "ddd, D MMM YYYY",
+        "resultsTitle": "Voici les cliniques pour vous",
+        "yourResults": "Vos choix",
+        "ctaTitle": "Vous n'avez pas trouvé la clinique que vous cherchiez ?",
+        "ctaText": "Reprendre le quiz",
+        "clinics_results_count": "{{count}} clinique trouvée",
+        "clinics_results_count_plural": "{{count}} cliniques trouvées",
+        "gender": "Genre",
+        "relationship": "Relation",
+        "birthdate": "Date de naissance",
+        "partner_birthdate": "Date de naissance du partenaire",
+        "clinic": "Clinique",
+        "need": "Besoin",
+        "treatments": "Traitements",
+        "key_factor": "Facteur clé",
+        "modalTitle": "Êtes-vous sûr de vouloir quitter le quiz ?",
+        "modalDescription": "Votre progression ne sera pas sauvegardée. Vous devrez recommencer depuis le début."
+    },
+    "StackCancelButton": {
+        "cancel": "Annuler"
+    },
+    "ConfirmModal": {
+        "confirm": "Oui, je veux partir",
+        "dismiss": "Non, laissez-moi continuer"
+    },
+    "WalkThrough": {
+        "Home": {
+            "buttonContinue": "Continuer",
+            "buttonStart": "Commencer",
+            "linkPatientID": "Je veux relier l'ID du patient à l'application"
+        }
+    },
+    "Preferences": {
+        "Tracking": {
+            "title": "Paramètres de confidentialité",
+            "description": "Nous utilisons des cookies pour la fonctionnalité technique et pour mesurer le trafic, collecter et traiter les données personnelles des appareils afin de fournir le meilleur service et la meilleure expérience possibles. En choisissant \"Accepter\", vous consentez à ces objectifs.",
+            "learnMore": "En savoir plus",
+            "accept": "Accepter",
+            "reject": "Rejeter"
+        }
+    },
+    "Loader": {
+        "loading": "Chargement..."
+    },
+    "PatientQuestionnaire": {
+        "start": "Démarrer le questionnaire",
+        "submit": "Soumettre",
+        "saveForLater": "Enregistrer pour plus tard",
+        "next": "Suivant",
+        "cancelModal": {
+            "title": "Êtes-vous sûr d'annuler la question du patient ?",
+            "description": "Votre progression ne sera pas sauvegardée. Vous devrez recommencer depuis le début.",
+            "confirmButton": "Oui, l'annuler",
+            "dismissButton": "Non, laissez-moi continuer"
+        },
+        "saveForLaterModal": {
+            "title": "Êtes-vous sûr de laisser le patient questionnarie ?",
+            "description": "Votre progression a été sauvegardée. Vous recommencerez à partir du moment où vous vous êtes interrompu.",
+            "confirmButton": "Oui, je finirai plus tard",
+            "dismissButton": "Non, laissez-moi continuer"
+        },
+        "ThankYou": {
+            "title": "Merci de votre attention.",
+            "subtitle": "Nous vous remercions pour le temps que vous nous avez consacré et pour avoir rempli ce questionnaire. Nous nous réjouissons de vous accueillir comme clients à {{nom de la clinique}} et nous ferons de notre mieux pour répondre à vos attentes.",
+            "goToHomepage": "Aller à la page d'accueil"
+        },
+        "DonationProgram": {
+            "interested": "Oui, je suis intéressé",
+            "notInterested": "Non, merci",
+            "yes": "oui",
+            "no": "non"
+        }
+    },
+    "StimulationProtocolSetup": {
+        "modalTitle": "Êtes-vous sûr de laisser le protocole de stimulation en place ?",
+        "modalDescription": "Votre progression ne sera pas sauvegardée. Vous devrez recommencer depuis le début.",
+        "Actions": {
+            "start": "Démarrer l'installation",
+            "restart": "OK, merci"
+        },
+        "Start": {
+            "title": "Mise en place d'un protocole de stimulation",
+            "subtitle": "Si vos règles ont commencé, vous pouvez mettre en place votre protocole de stimulation et commencer le traitement.",
+            "requirements": {
+                "title": "Exigences",
+                "description": "Vous ne pouvez commencer le protocole de stimulation que les jours de votre cycle proposés par la clinique.",
+                "link": "En savoir plus"
+            }
+        },
+        "Steps": {
+            "Actions": {
+                "next": "Suivant",
+                "notificationsSettings": "Paramètres des notifications",
+                "confirm": "Confirmer et démarrer"
+            },
+            "PeriodDate": {
+                "title": "Quand avez-vous eu vos règles ?",
+                "subtitle": "Sélectionnez le jour et l'heure auxquels vos règles ont commencé."
+            },
+            "StartDate": {
+                "title": "Quand souhaitez-vous commencer votre traitement ?",
+                "subtitle": "Il s'agit des options disponibles en fonction du jour où vos règles ont commencé.",
+                "fallbackInfo": "Avez-vous déjà commencé à prendre les médicaments nécessaires en suivant les instructions du médecin ?",
+                "warning": {
+                    "partOne": "Veuillez consulter notre ",
+                    "partTwo": "Centre d'aide",
+                    "partThree": " pour s'assurer que vous avez commencé à prendre les médicaments correctement."
+                },
+                "buttonDateFormat": "ddd, D MMM YYYY",
+                "today": "Aujourd'hui",
+                "yesterday": "Hier",
+                "tomorrow": "Demain",
+                "startedYesterday": "J'ai déjà commencé hier",
+                "startedToday": "J'ai déjà commencé aujourd'hui",
+                "comeBack": "Revenez le mois prochain"
+            },
+            "MedicationsTimes": {
+                "title": "Quand souhaitez-vous prendre les médicaments ?",
+                "subtitle": "Fixez des horaires que vous pourrez respecter tous les jours de la semaine.",
+                "alert": "Les dates ne peuvent être modifiées ultérieurement.",
+                "selectPlaceholder": "HH:mm",
+                "label": {
+                    "morning": "Médicaments du matin",
+                    "noon": "Médicaments du midi",
+                    "evening": "Médicaments du soir"
+                },
+                "checksTitle": "Intervalles recommandés entre les médicaments",
+                "checkLabel": {
+                    "morningToNoon": "Du matin au midi : {{min}}-{max}} heures",
+                    "noonToEvening": "De midi à soir : heures {{min}}-{{max}}",
+                    "eveningToMorning": "Du soir au matin : heures {{min}}-{{max}}"
+                }
+            },
+            "Notifications": {
+                "title": "Nous vous rappellerons chaque dose",
+                "subtitle": {
+                    "partOne": "Nous vous enverrons toujours une notification 5 minutes à l'avance. Assurez-vous d'avoir ",
+                    "partTwo": "notifications activées",
+                    "partThree": " dans les paramètres de l'application."
+                }
+            },
+            "Confirm": {
+                "title": "C'est presque terminé !",
+                "subtitle": "Examinez vos choix et confirmez pour démarrer votre protocole de stimulation.",
+                "startDate": "Date de début",
+                "startDateFormat": "ddd, D MMM YYYY",
+                "morning": "Médicaments du matin",
+                "noon": "Médicaments du midi",
+                "evening": "Médicaments du soir",
+                "timesFormat": "H:mm",
+                "info": {
+                    "partOne": "Au début, vous verrez ",
+                    "partTwo": "les nominations de remplacement",
+                    "partThree": " dans votre calendrier. N'oubliez pas que ces dates peuvent être modifiées par la clinique."
+                }
+            }
+        },
+        "Wait": {
+            "title": "Il faudra attendre...",
+            "firstDescription": "Malheureusement, vous n'avez pas pu commencer votre traitement cette fois-ci.",
+            "secondDescription": {
+                "partOne": "Revenez, s'il vous plaît ",
+                "partTwo": "le mois prochain",
+                "partThree": " au début des règles."
+            }
+        }
+    },
+    "DayHeading": {
+        "day": "Jour {{nombre}}",
+        "dateFormat": "dddd, D MMMM"
+    },
+    "CalendarSlot": {
+        "day": "Jour"
+    },
+    "CounterChip": {
+        "others": "+ {{count}} autre",
+        "others_plural": "+ {{count}} autres"
+    },
+    "LastUpdate": {
+        "inMinutes": "Mis à jour il y a {{count}} minute",
+        "inMinutes_plural": "Mis à jour il y a {{count}} minutes",
+        "inHours": "Mis à jour il y a {{count}} heure",
+        "inHours_plural": "Mis à jour il y a {{count}} heures",
+        "inDays": "Mis à jour il y a {{count}} jour",
+        "inDays_plural": "Mis à jour il y a {{count}} jours"
+    },
+    "StimulationProtocol": {
+        "Header": {
+            "title": "Protocole de stimulation"
+        },
+        "Medications": {
+            "trigger_medications": "Médicaments déclencheurs",
+            "morning_medications": "Médicaments du matin",
+            "lunch_medications": "Médicaments pour le déjeuner",
+            "evening_medications": "Médicaments du soir"
+        },
+        "MedicationsList": {
+            "overdue": "En retard"
+        },
+        "MedicationModal": {
+            "howTo": "Comment le prendre",
+            "whatIf": "Et si je l'oubliais ?",
+            "notFound": "Il s'agit d'un médicament de stimulation, veuillez lire attentivement les instructions figurant sur l'emballage."
+        },
+        "ConfirmMedicationsModal": {
+            "title": "Confirmation des médicaments",
+            "description": "Avez-vous pris les médicaments prévus pour aujourd'hui ? Si ce n'est pas le cas, vous pouvez consulter la tuile de médicaments spécifique pour savoir ce qu'il faut faire.",
+            "description_plural": "Avez-vous pris tous les médicaments {{quantité}} pour aujourd'hui ? Si ce n'est pas le cas, vous pouvez vérifier la tuile médicamenteuse spécifique pour savoir ce qu'il faut faire ensuite.",
+            "answerNo": "Non, laissez-moi vérifier",
+            "answerYes": "Oui, j'en suis sûr"
+        },
+        "MedicationCard": {
+            "quantity": "Quantité : {{qty}}"
+        },
+        "Tabs": {
+            "all": "Tous",
+            "trigger_medications": "Déclencheur",
+            "morning_medications": "Matin",
+            "lunch_medications": "Déjeuner",
+            "evening_medications": "Soirée"
+        },
+        "Upcoming": {
+            "title": "Médicaments à venir",
+            "date": "Dans la journée de {{count}}",
+            "date_plural": "Depuis {{count}} jours"
+        },
+        "Appointments": {
+            "title": "Rendez-vous",
+            "date": "Dans la journée de {{count}}",
+            "date_plural": "Depuis {{count}} jours",
+            "today": "Aujourd'hui"
+        },
+        "startCta": {
+            "title": "Démarrer le protocole de stimulation",
+            "partOne": "Votre traitement doit commencer par le ",
+            "partTwo": "début des menstruations",
+            "partThree": ". Une fois que vous l'avez obtenu, commencez ici.",
+            "button": "J'ai eu mes règles"
+        }
+    },
+    "StimulationProtocolOverview": {
+        "Card": {
+            "buttonSetup": "Définir les notifications",
+            "title": "Protocole de stimulation",
+            "duration": "Durée totale",
+            "completed": "Terminé",
+            "starting": "Démarrage",
+            "today": "Aujourd'hui",
+            "days": "{{total}} jours",
+            "day": "Jour {{currentDayCount}}",
+            "start": "Prêt à démarrer",
+            "startDate": "Date de début",
+            "endDate": "Date de fin",
+            "scheduled": "Prévu",
+            "scheduledClinic": "Programmée par la clinique",
+            "inProgress": "En cours",
+            "time": "Temps restant",
+            "details": "Détails",
+            "button": "J'ai eu mes règles",
+            "buttonStart": "Explorer",
+            "willStart": "Votre protocole de stimulation a été programmé. Explorez-le pour avoir un aperçu de la feuille de route et des détails du traitement.",
+            "willEnd": "Pour plus d'informations sur la continuité de la médication, veuillez vous référer à l'aperçu du protocole de stimulation.",
+            "readyToStart": {
+                "partOne": "Votre traitement doit commencer par le ",
+                "partTwo": "début des menstruations. ",
+                "partThree": "Une fois que vous l'avez obtenu, commencez ici."
+            },
+            "trackMedications": {
+                "completed": "Vous êtes sur la bonne voie en ce qui concerne les médicaments aujourd'hui",
+                "overdue": "Vous avez des médicaments en retard aujourd'hui"
+            },
+            "notScheduled": "Votre protocole de stimulation n'a pas encore été programmé."
+        },
+        "cardTreatment": {
+            "title": "Mon traitement",
+            "treatment": "Traitement",
+            "services": "Méthodes spéciales de laboratoire pour la FIV",
+            "dateOfIssue": "Date d'émission",
+            "specialist": "Médecin",
+            "button": "Plus de détails"
+        },
+        "appointments": {
+            "title": "Rendez-vous",
+            "date": "Jour {{count}}",
+            "intro": "Pendant votre protocole de stimulation, vous devrez effectuer des échographies régulières pour vérifier la quantité et la taille des follicules, ainsi que des prises de sang régulières pour contrôler le taux d'hormones. Le prélèvement d'ovules aura lieu 24/36 heures après la piqûre de déclenchement sous anesthésie générale de 10/15 minutes suivie d'une surveillance de 2 heures Le transfert d'embryons aura lieu 5-6 jours après le prélèvement d'ovules Les rendez-vous et étapes suivants sont déjà programmés :",
+            "calendar": "Calendrier",
+            "noAppointments": "Il n'y a pas de rendez-vous prévu pour le moment"
+        }
+    },
+    "StimulationProtocolOverviewModal": {
+        "title": "Aperçu du protocole de stimulation",
+        "description": {
+            "partOne": "Votre protocole de stimulation durera ",
+            "partTwo": "{{nombre}} jours ",
+            "partThree": "et il devrait ",
+            "partFour": "commencent le 1er ou le 2e jour du cycle menstruel ",
+            "partFive": "(avec une première forte hémorragie).",
+            "partSix": "L'objectif de ce traitement est d'obtenir un plus grand nombre d'ovules matures dans les ovaires que lors d'un cycle naturel."
+        },
+        "downloadPdf": "Télécharger (PDF)",
+        "downloadErrorToast": {
+            "title": "Erreur",
+            "text": "Impossible de télécharger le fichier"
+        },
+        "appointments": {
+            "day": "Jour {{jour}}",
+            "learnMore": "En savoir plus sur les rendez-vous"
+        },
+        "medications": {
+            "learnMore": "En savoir plus sur les médicaments",
+            "notes": "Notes :"
+        },
+        "treatmentDetails": {
+            "doctor": "Médecin : {{doctorName}}",
+            "learnMore": "En savoir plus sur les méthodes de laboratoire",
+            "dateOfIssue": "Date d'émission : {{- dateOfIssue}}",
+            "laboratoryMethods": "Méthodes spéciales de laboratoire pour la FIV"
+        },
+        "timing": {
+            "firstConsultation": "Première consultation",
+            "firstDayOfCycle": "Premier jour du cycle"
+        },
+        "patientDetails": {
+            "idCode": "Code d'identification : {{idCode}}",
+            "born": "Née ",
+            "partner": "Partenaire"
+        },
+        "panels": {
+            "medications": "Médicaments",
+            "appointments": "Rendez-vous",
+            "timing": "Calendrier",
+            "patientDetails": "Informations sur le patient",
+            "treatmentDetails": "Détails du traitement"
+        }
+    },
+    "BiometryMessage": {
+        "secondaryButton": "Non, merci",
+        "SuccessToast": {
+            "title": "Succès",
+            "text": "La connexion biométrique a été sauvegardée"
+        },
+        "title": "Biométrie détectée",
+        "subtitle": "Définir la connexion biométrique",
+        "primaryButton": "Activer la connexion biométrique"
+    },
+    "StimulationProtocolClinicOverview": {
+        "alert": "Mode d'affichage temporaire",
+        "disclaimer": "Nous travaillons à la réparation de la connexion. Vos données sont en sécurité, veuillez utiliser temporairement le tableau ci-dessous.",
+        "title": "Aperçu du protocole de stimulation",
+        "swipe": "Balayage vers la gauche"
+    },
+    "Settings": {
+        "subtitle": {
+            "appSettings": "Paramètres de l'application",
+            "account": "Compte"
+        },
+        "links": {
+            "path": "Votre parcours",
+            "notifications": "Notifications",
+            "personalDetails": "Données personnelles",
+            "changePassword": "Modifier le mot de passe",
+            "treatmentStop": "Arrêt du traitement",
+            "onBoarding": "Guide d'accueil des nouveaux arrivants",
+            "language": "Langue",
+            "biometry": "Biométrie",
+            "trackingPreference": "Préférence en matière de suivi"
+        },
+        "personalDetails": {
+            "patientName": "Nom du patient",
+            "birthDate": "Date de naissance",
+            "email": "Courriel",
+            "patientId": "Code d'identification du patient",
+            "partnerName": "Nom du partenaire"
+        },
+        "changePassword": {
+            "descriptionFirst": "Pour modifier votre mot de passe, nous pouvons vous envoyer un lien à votre adresse électronique. ",
+            "descriptionSecond": " pour que vous le réinitialisiez.",
+            "button": "Envoyer un courriel",
+            "successMessage": "Courriel envoyé !",
+            "descriptionMessage": "Utilisez le lien pour réinitialiser votre mot de passe"
+        },
+        "treatmentStop": {
+            "firstParagraph": "Si vous devez arrêter le traitement, veuillez contacter votre médecin ou la clinique pour savoir ce qu'il faut faire.",
+            "secondParagraph": "Ce n'est que si vous avez déjà convenu avec eux de l'arrêt du traitement que vous pouvez utiliser le bouton de cette page pour réinitialiser votre application.",
+            "buttonClinic": "Contacter la clinique",
+            "buttonStop": "Arrêter le traitement",
+            "modal": {
+                "title": "Voulez-vous vraiment arrêter le traitement ?",
+                "descriptionFirst": "L'arrêt du traitement ",
+                "descriptionBold": "réinitialiser votre application",
+                "descriptionSecond": " et vous perdrez tous les contrôles de médicaments.",
+                "confirmButton": "Oui, arrêtez",
+                "rejectButton": "Non, laissez-moi continuer"
+            }
+        },
+        "notifications": {
+            "description": "Ici, vous pouvez choisir les notifications que vous souhaitez recevoir de l'application. Nous vous recommandons vivement de ne pas activer les notifications concernant les médicaments.",
+            "pushLabel": "Notification push",
+            "emailLabel": "Courriel",
+            "categories": {
+                "all": {
+                    "title": "Toutes les notifications",
+                    "description": "Vous pouvez ici décider de masquer toutes les notifications du portail du patient."
+                },
+                "appointments": {
+                    "title": "Calendrier des rendez-vous",
+                    "description": "Cette notification vous rappellera les rendez-vous à venir"
+                },
+                "documents": {
+                    "title": "Documents",
+                    "description": "Cette notification vous informera des nouveaux documents téléchargés par la clinique."
+                },
+                "embryo_dev": {
+                    "title": "Développement de l'embryon",
+                    "description": "Cette notification vous informera des nouvelles mises à jour des embryons."
+                },
+                "invoices": {
+                    "title": "Factures",
+                    "description": "Cette notification vous informera des nouvelles factures de la clinique."
+                },
+                "medications": {
+                    "title": "Rappels de médicaments",
+                    "description": "Cette notification vous rappellera de prendre vos médicaments conformément au protocole."
+                },
+                "pregnancy_test": {
+                    "title": "Test de grossesse",
+                    "description": "Cette notification vous rappellera le début de la période du test de grossesse."
+                },
+                "stimulation_protocol": {
+                    "title": "Protocole de stimulation",
+                    "description": "Cette notification vous rappellera l'événement du protocole de stimulation"
+                }
+            }
+        },
+        "biometry": {
+            "description": "Vous pouvez ici décider d'activer ou de désactiver l'accès biométrique.",
+            "toggleLabel": "Authentification biométrique",
+            "noEnroll": "L'appareil n'a pas été enregistré dans Fingerprint/FaceId",
+            "toast": {
+                "successTitle": "Succès",
+                "successText": "Authentification biométrique activée",
+                "errorTitle": "Erreur",
+                "errorText": "Mot de passe incorrect"
+            },
+            "bottomModal": {
+                "title": "Confirmer l'authentification biométrique",
+                "button": "Confirmer"
+            },
+            "authenticationPrompt": {
+                "title": "Confirmer la connexion biométrique avec {{biometryType}}"
+            }
+        },
+        "trackingPreference": {
+            "description": "Nous utilisons des cookies pour la fonctionnalité technique et pour mesurer le trafic, collecter et traiter les données personnelles des appareils afin de fournir le meilleur service et la meilleure expérience possible.",
+            "toggle": "Accepter"
+        }
+    },
+    "Calendar": {
+        "header": "Calendrier",
+        "dayNamesShort": [
+            "S",
+            "M",
+            "T",
+            "W",
+            "T",
+            "F",
+            "S"
+        ],
+        "monthHeader": {
+            "format": "MMMM YYYY"
+        },
+        "addToCalendar": {
+            "SuccessToast": {
+                "title": "Succès",
+                "text": "Le rendez-vous a été ajouté à votre calendrier"
+            },
+            "ErrorToast": {
+                "title": "Quelque chose n'a pas fonctionné",
+                "text": "Veuillez réessayer."
+            }
+        },
+        "dayHeader": {
+            "format": "dddd, D MMMM YYYY"
+        },
+        "cards": {
+            "embryoDev": {
+                "header": "Développement de l'embryon",
+                "future": {
+                    "text": "Pendant cette période, vous pourrez suivre l'évolution de vos embryons."
+                },
+                "current": {
+                    "text": "Voir les mises à jour"
+                }
+            },
+            "pregnancyTest": {
+                "header": "Test de grossesse",
+                "future": {
+                    "text": "Au cours de cette période, vous pourrez nous communiquer les résultats de votre test de grossesse"
+                },
+                "current": {
+                    "text": "Faites-nous part de vos résultats"
+                }
+            },
+            "stimulationProtocol": {
+                "header": "Protocole de stimulation",
+                "future": {
+                    "text": "Votre protocole de stimulation démarre ",
+                    "delta": "dans le jour {{count}}",
+                    "delta_plural": "en {{count}} jours",
+                    "date": " le MMMM D"
+                },
+                "current": {
+                    "header": "Jour {{index}} "
+                }
+            },
+            "appointment": {
+                "header": "Nomination",
+                "learnMore": "En savoir plus",
+                "dateFormat": "dddd, D MMMM YYYY",
+                "call": "Clinique d'appel",
+                "directions": "Directions"
+            },
+            "noAppointments": "Pas de rendez-vous pour ce jour"
+        }
+    },
+    "ContactModal": {
+        "phone": "Téléphone : ",
+        "email": "Courriel : "
+    },
+    "Messages": {
+        "new": "Nouveau",
+        "Create": {
+            "headerTitle": "Nouveau message",
+            "to": "A :",
+            "send": "Envoyer",
+            "textareaPlaceholder": "Écrire un message ici...",
+            "successToast": {
+                "title": "Message envoyé",
+                "text": "Le message a été envoyé avec succès"
+            },
+            "errorToast": {
+                "title": "Quelque chose n'a pas fonctionné",
+                "text": "Veuillez réessayer.",
+                "linkText": "Tapez ici"
+            }
+        },
+        "Home": {
+            "title": "Messages",
+            "emptyConversationSubtitle": "Commencer à envoyer des messages à la clinique",
+            "lastMessageToday": "HH:mm",
+            "lastMessageNotToday": "D MMM YYYY"
+        },
+        "Detail": {
+            "NewConversation": {
+                "banner": "Écrivez dans cette conversation pour communiquer directement avec la clinique au sujet de votre traitement, si vous avez besoin de soutien ou d'informations."
+            },
+            "newMessage": "Nouveau message"
+        },
+        "List": {
+            "user": "Vous"
+        }
+    },
+    "Notifications": {
+        "title": "Notifications",
+        "read": "Marquer tous les textes comme lus",
+        "mostRecent": "Les plus récents",
+        "emptyList": "Aucune notification n'a encore été reçue",
+        "dateLessThanOneHour": "A l'instant",
+        "dateLessThanOneDay": "Il y a {{count}} heure",
+        "dateLessThanOneDay_plural": "Il y a {{count}} heures",
+        "dateMoreThanOneDay": "D MMM YYYY - HH:mm",
+        "markAllAsReadToast": {
+            "title": "Notifications",
+            "text": "Toutes les notifications ont été marquées comme lues avec succès"
+        }
+    },
+    "Biometry": {
+        "AuthenticationPrompt": {
+            "title": "Empreinte digitale pour FutureLife",
+            "subtitle": "Veuillez vous authentifier avec votre empreinte digitale",
+            "description": "Vous vous connectez sur FutureLife",
+            "cancel": "Se connecter avec l'email"
+        }
+    },
+    "EmbryoDev": {
+        "headerTitle": "Développement de l'embryon",
+        "waitingUpdate": "En attente de la mise à jour de la clinique. En fonction de votre clinique, les mises à jour sont généralement affichées les jours 1, 3 et 5.",
+        "learnMoreAboutPhases": "Phases de l'embryon et classement",
+        "status": {
+            "inProgress": "En cours",
+            "completed": "Terminé"
+        },
+        "EmbryoCard": {
+            "embryoType": "Embryon {{embryoNumber}}",
+            "grade": "Grade",
+            "phase": "Phase"
+        },
+        "Grading": {
+            "Standard": {
+                "title": "Développement standard",
+                "shortTitle": "Développement standard",
+                "description": "L'embryon se développe correctement."
+            },
+            "Slight": {
+                "title": "Développement avec de légères irrégularités",
+                "shortTitle": "Légères irrégularités",
+                "description": "L'embryon se développe avec de légères irrégularités."
+            },
+            "Greater": {
+                "title": "Développement avec de plus grandes irrégularités",
+                "shortTitle": "Des irrégularités plus importantes",
+                "description": "L'embryon se développe avec quelques irrégularités importantes."
+            },
+            "Discarded": {
+                "title": "Embryon rejeté",
+                "shortTitle": "Mise au rebut",
+                "description": "L'embryon ne se développe pas correctement et il est éliminé."
+            }
+        },
+        "StatusDetails": {
+            "totalEmbryos": "Total des embryons",
+            "embryosLeft": "Embryons laissés",
+            "discardedEmbryos": "Embryons abandonnés",
+            "inStandardEmbryo": "En développement standard",
+            "lastUpdate": "Dernière mise à jour"
+        },
+        "Phases": {
+            "0": {
+                "title": "Collecte des gamètes",
+                "description": "Collecte d'ovules et de spermatozoïdes, puis fécondation. L'ovule mature est nécessaire à la fécondation. L'ovule mature est à un stade de métaphase II et possède un corps polaire. (M2)"
+            },
+            "1": {
+                "title": "Contrôle de la fécondation",
+                "description": "Dans les 16 à 20 heures suivant la fécondation, celle-ci est évaluée en fonction du nombre de pronucléus créés (PN) et du nombre de corps polaires (PB) : Le premier pronucléus contient l'information génétique maternelle et le deuxième pronucléus contient l'information génétique paternelle."
+            },
+            "2": {
+                "title": "Contrôle du décolleté",
+                "description": "Dans les 36 à 48 heures suivant la fécondation, les embryons sont évalués en fonction du nombre de blastomères, du degré de fragmentation, de granulation et de vacuolisation. Après 36 heures - 2 cellules identiques. Après 48 heures - 4 cellules identiques. Le développement embryonnaire n'est généralement pas évalué ce jour-là."
+            },
+            "3": {
+                "title": "Contrôle du décolleté",
+                "description": "Dans les 72 heures suivant la fécondation, l'embryon qui se développe correctement compte 6 à 8 cellules ce jour-là. Les embryons peuvent se développer plus ou moins rapidement."
+            },
+            "4": {
+                "title": "Contrôle de qualité embryonnaire",
+                "description": "Dans les 96 heures suivant la fécondation. Les cellules de l'embryon deviennent plus petites, leur nombre augmente constamment, la ligne de démarcation entre les cellules disparaît. La cavité se forme dans la partie centrale de l'embryon."
+            },
+            "5": {
+                "title": "Contrôle de qualité embryonnaire",
+                "description": "Dans les 120 heures suivant la fécondation. La cavité dans la partie centrale de l'embryon se développe - le blastocyste est en train d'émerger. Le transfert d'embryon (TE) ou le diagnostic génétique préimplantatoire (DPI) sont également effectués au 5e jour de culture, ou des embryons supplémentaires de bonne qualité sont congelés."
+            },
+            "6": {
+                "title": "Contrôle de qualité embryonnaire",
+                "description": "Dans les 144 heures suivant la fécondation, après l'évaluation de la qualité de l'embryon, tous les embryons excédentaires sont congelés. Les embryons doivent être au stade de blastocystes expansés (XB), de blastocystes à éclosion (HB) ou de blastocystes à éclosion complète (FHB)."
+            },
+            "none": {
+                "title": "Titre manquant",
+                "description": "Description manquante"
+            }
+        }
+    },
+    "EmbryoDevOverviewModal": {
+        "title": "Aperçu du développement embryonnaire",
+        "description": {
+            "partOne": "Le développement embryonnaire est le développement et la formation de l'embryon humain.",
+            "partTwo": "Le développement de l'embryon est téléchargé du jour 1 au jour 5. Le jour 0 indique le nombre d'ovocytes matures.",
+            "partThree": "Le développement embryonnaire n'est pas effectué le dimanche."
+        },
+        "downloadPdf": "Télécharger (PDF)",
+        "learnMore": "En savoir plus sur Embryo Dev",
+        "downloadErrorToast": {
+            "title": "Erreur",
+            "text": "Impossible de télécharger le fichier"
+        },
+        "panels": {
+            "grading": "Notation",
+            "embryoPhases": "Phases de l'embryon",
+            "embryoTransfer": "Transfert d'embryons"
+        },
+        "Grading": {
+            "description": "Le grade d'un embryon mesure son état de santé réel."
+        },
+        "EmbryoPhases": {
+            "description": "Une phase est l'état de l'embryon à un jour donné. Nous pourrions avoir 7 phases.",
+            "checkingEmbryos": "*Le contrôle des embryons est effectué le 1er, le 3e et le 5e jour de la culture.",
+            "or": "ou",
+            "day": "Jour",
+            "Phases": {
+                "twoCell": "Embryon à 2 cellules",
+                "fourCell": "Embryon à 4 cellules",
+                "eightCell": "Embryon à 8 cellules",
+                "twelveCell": "Embryon à 12 cellules",
+                "blastocyst": "Blastocyste (B)",
+                "compactMorulaWithCavitation": "Morula compacte avec cavitation (CM+)",
+                "compactMorula": "Morula compacte (CM)",
+                "earlyMlastocyst": "Mlastocyste précoce (EB)",
+                "expandedBlastocyst": "Blastocyste expansé (XB)",
+                "fertilizedEgg": "Œuf fécondé (2PN)",
+                "hatchingBlastocyst": "Blastocyste à éclosion (HB)",
+                "immatureEgg": "Œuf immature (GV)",
+                "incorrectlyFertilizedEgg": "Œuf mal fécondé (3PN)",
+                "matureEgg": "Œuf mature (M2)"
+            }
+        },
+        "EmbryoTransfer": {
+            "subTitle": "Suivre le transfert d'embryons",
+            "learnMore": "En savoir plus sur le transfert d'embryons",
+            "Description": {
+                "partOne": "Le transfert d'embryons est le plus souvent effectué au 5ème ou 3ème jour de culture.",
+                "partTwo": "Veuillez consulter notre médecin pour connaître le bon moment. Le transfert d'embryons est indolore et ne nécessite pas d'anesthésie (il n'est pas nécessaire d'avoir l'estomac vide).",
+                "partThree": "Il n'est pas nécessaire d'avoir la vessie complètement pleine, mais nous vous recommandons de ne pas aller aux toilettes juste avant le transfert d'embryons.",
+                "partFour": "Le transfert d'embryons est toujours effectué en ambulatoire. Votre partenaire peut également assister à l'intervention. Vous resterez allongée pendant environ 10 à 15 minutes immédiatement après le transfert de vos embryons",
+                "partFive": "Une fois le transfert d'embryons terminé, on vous indiquera la marche à suivre et vous recevrez un rapport détaillé sur le déroulement de votre traitement et l'état de vos embryons.",
+                "partSix": "Vous recevrez également une facture pour votre traitement, payable à notre service comptable."
+            }
+        }
+    },
+    "PregnancyTest": {
+        "Sections": {
+            "GreatNews": {
+                "title": "C'est une excellente nouvelle, {{nom}} !",
+                "subTitle": "Pour en avoir le cœur net, il est important que vous confirmiez vos résultats par une prise de sang. \n\n Avez-vous fait une ",
+                "subTitle2": "test de grossesse sanguin ?",
+                "yes": "Oui, je l'ai déjà fait",
+                "no": "Pas encore"
+            },
+            "Congratulations": {
+                "title": "Félicitations pour votre grossesse !",
+                "subTitle": "C'est une période très excitante pour vous et votre famille. Votre travail acharné et votre dévouement à votre traitement de fertilité ont porté leurs fruits, et vous êtes sur le point d'entamer un nouveau chapitre de votre vie. \n\n Nous vous souhaitons une grossesse saine et heureuse !",
+                "thankYou": "Merci de votre attention !"
+            },
+            "YourJourney": {
+                "title": "Votre voyage n'est pas encore terminé, {{nom}} !",
+                "subTitle": "Veuillez prendre contact avec la clinique pour décider de la marche à suivre.",
+                "contact": "Contacter la clinique",
+                "contactMe": "Qu'ils me contactent"
+            },
+            "TheClinic": {
+                "title": "La clinique prendra contact avec vous dans les plus brefs délais",
+                "subTitle": "Nous avons envoyé votre demande à la clinique, qui vous contactera dès que possible. ",
+                "subTitle2": "pour programmer votre ",
+                "subTitle3": "analyse de sang",
+                "backToHome": "Retour à l'accueil"
+            }
+        },
+        "ScheduleBloodTest": {
+            "title": "Programmer un test sanguin",
+            "subTitle": "Veuillez prendre contact avec la clinique pour planifier un test sanguin et confirmer vos résultats de grossesse. ",
+            "schedule": "Programmez avec {{clinicName}}",
+            "need": "Je dois le faire ailleurs"
+        },
+        "ConfirmBloodTest": {
+            "title": "Êtes-vous sûr ?",
+            "subtitlePartOne": "Si vous n'êtes pas en mesure d'organiser un test sanguin à notre clinique, veuillez consulter notre site web. ",
+            "helpCenter": "Centre d'aide ",
+            "subtitlePartTwo": "pour plus d'informations à ce sujet. \n\n Êtes-vous sûr de vouloir effectuer la prise de sang ailleurs ?",
+            "confirm": "Oui, j'en suis sûr",
+            "learnMore": "En savoir plus sur les tests sanguins"
+        }
+    },
+    "PregnancyTestOverview": {
+        "title": "Test de grossesse",
+        "helpCenter": "Aide",
+        "Waiting": {
+            "placeholder": "Les données seront mises à jour en fonction du traitement en cours, s'il est fourni par votre clinique.",
+            "Status": {
+                "regularText": "La période recommandée pour le test de grossesse commence ",
+                "boldText": "dans le jour {{count}}",
+                "boldText_plural": "en {{count}} jours"
+            },
+            "Details": {
+                "Phase1": {
+                    "description": "Vous venez de subir un transfert d'embryons. Nous espérons que vous vous sentez bien et nous vous souhaitons bonne chance !"
+                },
+                "Phase2": {
+                    "description": "Nous vous demandons de bien vouloir nous dire si vous appréciez notre clinique.",
+                    "textCta": "Répondre à l'enquête"
+                },
+                "Phase3": {
+                    "description": "Si, dans l'intervalle, vous obtenez déjà un résultat positif, veuillez nous en informer.",
+                    "textCta": "J'ai obtenu un résultat positif"
+                }
+            }
+        },
+        "Started": {
+            "Status": {
+                "regularText": "La période recommandée pour le test de grossesse ",
+                "boldText": "a commencé"
+            },
+            "Details": {
+                "description": "Veillez à effectuer les tests de grossesse recommandés pendant cette période.\n\n Si vous obtenez un résultat positif, n'hésitez pas à nous en informer.",
+                "textCta": "J'ai obtenu un résultat positif"
+            }
+        },
+        "Completed": {
+            "Status": {
+                "regularText": "$t(PregnancyTestOverview.Started.Status.regularText)",
+                "boldText": "a pris fin"
+            },
+            "Details": {
+                "description": "Si vous n'avez pas obtenu de résultat positif, n'hésitez pas à contacter la clinique pour connaître la marche à suivre.",
+                "textCta": "Prendre contact",
+                "textCta2": "J'ai obtenu un résultat positif"
+            }
+        },
+        "Result": {
+            "infoBox": "Nous avons envoyé votre demande à la clinique, qui vous contactera bientôt.",
+            "WaitingBloodTestResults": {
+                "title": "C'est une excellente nouvelle, {{nom}} !",
+                "description": "Afin de confirmer votre grossesse, attendez les résultats de votre prise de sang."
+            },
+            "NegativeBloodTestResults": {
+                "title": "Votre voyage n'est pas encore terminé",
+                "description": "Veuillez prendre contact avec la clinique pour décider de la marche à suivre."
+            },
+            "Success": {
+                "title": "Félicitations pour votre grossesse !",
+                "description": "Votre travail acharné et votre dévouement à votre traitement de fertilité ont porté leurs fruits, et vous êtes sur le point d'entamer un nouveau chapitre de votre vie."
+            },
+            "BloodTest": {
+                "partOne": "Les ",
+                "partTwo": "analyse de sang ",
+                "partThree": "résultats positifs ?",
+                "answerYes": "Oui",
+                "answerNo": "Non"
+            }
+        }
+    },
+    "OnboardingExistingPatient": {
+        "Start": {
+            "title": "Associer l'identifiant du patient à l'application",
+            "description": "Veuillez relier votre identifiant de patient à notre application pour gérer de manière transparente votre parcours de fertilité.",
+            "selectClinic": "Sélectionnez votre clinique",
+            "selectClinicPlaceholder": "Sélectionner une clinique dans la liste",
+            "patientId": "ID du patient",
+            "patientIdPlaceholder": "Inscrivez ici votre numéro de patient",
+            "patientIdNotFound": "Nous n'avons pas trouvé votre numéro de patient dans nos dossiers. Veuillez vous assurer que vous avez sélectionné la bonne clinique que vous avez visitée. Si vous continuez à rencontrer des problèmes, veuillez contacter directement la clinique pour obtenir de l'aide.",
+            "email": "Courriel",
+            "emailPlaceholder": "Tapez votre e-mail",
+            "disclaimer": "Si vous n'êtes pas sûr de votre numéro de patient, veuillez contacter la clinique que vous avez visitée. Elle vous fournira les informations nécessaires pour relier vos dossiers d'identification de patient.",
+            "ctaClinicDetail": "Voir les coordonnées de votre clinique",
+            "ctaExistingAccount": "Vous avez déjà un compte ?",
+            "continue": "Continuer",
+            "backHome": "Retour à l'accueil"
+        },
+        "OTP": {
+            "title": "Insérez le code que nous vous avons envoyé par e-mail",
+            "description": "Nous avons envoyé un code d'autorisation à votre adresse électronique. Veuillez le saisir ici pour vous connecter.",
+            "codeLabel": "Code",
+            "codePlaceholder": "Tapez le code que vous avez reçu",
+            "verify": "Vérifier",
+            "codeNotReceived": "La réception du code peut prendre une minute.\nVous ne l'avez pas reçu ? ",
+            "sendAgain": "Renvoyer le code",
+            "invalidOTP": "L'OTP n'est pas le bon",
+            "refreshSuccessToast": {
+                "title": "Code envoyé",
+                "text": "Un autre code a été envoyé à votre e-mail"
+            }
+        },
+        "Informations": {
+            "title": "Associer l'identifiant du patient à l'application",
+            "selectedClinic": "Clinique sélectionnée : ",
+            "description": "Ajoutez vos informations personnelles et de contact pour continuer.",
+            "first_name": "Prénom",
+            "first_name_placeholder": "Tapez votre prénom",
+            "last_name": "Nom de famille",
+            "last_name_placeholder": "Tapez votre nom de famille",
+            "birthdate": "Date de naissance",
+            "birthdate_placeholder": "Saisissez votre date de naissance",
+            "my_gender": "Genre",
+            "my_gender_placeholder": "Sélectionnez votre sexe",
+            "my_gender_options": {
+                "M": "Homme",
+                "F": "Femme"
+            },
+            "country": "Pays",
+            "country_placeholder": "Choisissez votre pays",
+            "personal_code_identifier": "Numéro social",
+            "personal_code_identifier_placeholder": "Tapez votre numéro social",
+            "phone_number": "Numéro de téléphone",
+            "phone_number_placeholder": "Tapez votre numéro de téléphone avec le + et l'indicatif du pays",
+            "email": "Courriel",
+            "email_placeholder": "Tapez votre email",
+            "privacy_policy": "J'accepte que les données personnelles soient traitées conformément à ",
+            "privacy_policy_link": "Politique de confidentialité",
+            "rodcis": "Si vous avez un numéro social tchèque (Rodné číslo), veuillez le remplir. Sinon, n'inscrivez rien.",
+            "submit": "Soumettre"
+        },
+        "Feedback": {
+            "title": "Merci de soumettre votre demande",
+            "subtitle": "Nous avons envoyé un courriel à ",
+            "subtitle2": " avec un lien pour définir votre mot de passe, complétez-le afin de pouvoir vous connecter et accéder à votre compte.",
+            "goToLogin": "Accéder à la connexion",
+            "backToHome": "Retour à l'accueil",
+            "alreadyLinked": {
+                "title": "Vous avez déjà lié votre Patient ID et disposez d'un compte d'utilisateur chez nous.",
+                "subtitle": "Il n'est pas nécessaire de relier à nouveau votre numéro d'identification de patient. Il vous suffit de vous connecter à l'aide de vos identifiants existants pour accéder à votre compte."
+            }
+        }
+    }
+}
